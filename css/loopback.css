@@ -128,12 +128,14 @@ p.centered-regular {
   text-align: center;
   padding: 16px;
   border-radius: 5px;
-  border: none;
+  border-color: var(--color-blue-d);
+  border: solid;
   vertical-align: middle;
   color: var(--color-blue-d);
   font-size: 16px;
-  font-weight: bold;
   line-height: 16px;
+  position: relative;
+  top: 50%;
 }
 
 .btn-primary:active,
@@ -266,7 +268,7 @@ section {
   padding: 80px 0 56px 0;
 }
 .container {
-  padding: 0px 0 112px 0;
+  padding: 0px 0 50px 0;
 }
 
 /* Action */
@@ -319,4 +321,17 @@ footer a:focus,
 footer a:hover {
   color: var(--color-gray);
   text-decoration: none;
+}
+
+.code-snippet {
+  color: var(--color-gray-xd);
+  text-align: left;
+  background-color: var(--color-white-xd);
+  border-radius: 5px;
+  border-color: var(--color-gray-xd);
+  border: 1px solid;
+  padding: 22px 30px 22px 30px;
+  width: 100%;
+  position: relative;
+  top: 40%;
 }
